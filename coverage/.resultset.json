@@ -16,16 +16,54 @@
           null
         ]
       },
-      "/Users/nick/Turing/4mod/projects/tea_subscription/app/models/subscription.rb": {
+      "/Users/nick/Turing/4mod/projects/tea_subscription/app/models/tea.rb": {
         "lines": [
-          1,
           1,
           1,
           1,
           null
         ]
       },
-      "/Users/nick/Turing/4mod/projects/tea_subscription/app/models/tea.rb": {
+      "/Users/nick/Turing/4mod/projects/tea_subscription/app/controllers/api/v1/subscriptions_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          3,
+          3,
+          1,
+          null,
+          2,
+          null,
+          null,
+          null,
+          1,
+          1,
+          3,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/nick/Turing/4mod/projects/tea_subscription/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/nick/Turing/4mod/projects/tea_subscription/app/models/subscription.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/nick/Turing/4mod/projects/tea_subscription/app/serializers/subscription_serializer.rb": {
         "lines": [
           1,
           1,
@@ -44,14 +82,6 @@
         }
       },
       "/Users/nick/Turing/4mod/projects/tea_subscription/app/jobs/application_job.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/nick/Turing/4mod/projects/tea_subscription/app/controllers/application_controller.rb": {
         "lines": [
           0,
           0
@@ -80,6 +110,6 @@
         }
       }
     },
-    "timestamp": 1663690868
+    "timestamp": 1663696144
   }
 }
