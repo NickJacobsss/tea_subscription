@@ -13,6 +13,10 @@
 # it.
 require 'simplecov'
 SimpleCov.start 'rails'
+SimpleCov.add_filter 'app/channels/application_cable/channel.rb'
+SimpleCov.add_filter 'app/channels/application_cable/connection.rb'
+SimpleCov.add_filter 'app/jobs/application_job.rb'
+SimpleCov.add_filter 'app/mailers/application_mailer.rb'
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
