@@ -9,7 +9,6 @@ RSpec.describe "Create Subscription API Request" do
       price: 5.95,
       frequency: "once",
       tea_id: @black.id,
-      customer_id: @nick.id
     }
   end
 
@@ -42,8 +41,8 @@ RSpec.describe "Create Subscription API Request" do
 
       post "/api/v1/customers/#{@nick.id}/subscriptions", params: bad_sub_params
       subscription = JSON.parse(response.body, symbolize_names: true)
-      
-      expect(subscription[:error]).to eq("Customer must exist and Tea must exist")
+
+      expect(subscription[:error]).to eq("Tea must exist")
     end
 
     it "gives an error when an attribute is missing" do
